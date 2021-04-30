@@ -1,0 +1,134 @@
+                    <!DOCTYPE html>
+                    <!-- Comentarios en HTML -->
+                    <html lang="es"> <!-- es para indicar el idioma que va a tener nuestra web -->
+                    <head>
+                        <title>Jujutsu</title>
+                        <meta charset="utf-8">
+                        <link rel="stylesheet" type="text/css" href="css/style.css">
+                        <link rel="stylesheet" type="text/css" href="css/grid.css">
+                        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+                    </head>
+                    <body>
+                        <header class="header"> 
+                            <h1 class="title">Jujutsu Kaisen</h1>
+                            <!-- alt es el texto que se va a mostrar si no se puede cargar la img -->
+                            <!-- <img src="images/batman.jpg" alt="Señal de batman" class="title-img">-->
+                            <div class="title-img" id="title-img-animated"></div>
+                            <p class="title-cite">"呪術廻戦"</p>
+                        </header>
+                        <nav class="navbar">
+                           <ul  class="navbar-list">
+                               <li class="navbar-item active"><a href="#">Inicio</a></li>
+                               <li class="navbar-item"><a href="#quien-soy">Institución</a></li>
+                               <li class="navbar-item"><a href="#equipo">Alumnos 1er año</a></li>
+                               <li class="navbar-item"><a href="#transporte">Contactanos</a></li>
+                               
+                           </ul>
+                       </nav>
+                       <div class="container">
+                           <section id="quien-soy" class="about-me clearfix section-container">
+                             <div class="batman-photo">
+                               <video width="550" height="300" controls>
+                                <source src="video/y2mate.com - JUJUTSU KAISEN  OFFICIAL TRAILER_720p.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="batman-info">
+                               <h2>Colegio Técnico de Magia Metropolitana de Tokio</h2>
+                               
+                               <span>La escuela secundaria de Jujutsu de la prefectura de Tokio, está conformada por un gran campus compuesto de varios edificios con arquitectura tradicional japonesa. Tiene un patio abierto, muchas aulas, dormitorios y áreas de práctica para Jujutsu, todo el recinto es protegido por las barreras de Tengen. Los superiores de la escuela proporcionan mediación y leyes que deben de seguir todos los hechiceros de Jujutsu.
+                              </span>
+                          </div>
+                      </section> 
+                      <section id="equipo" class="section-content-reverse">
+                        <div class="row container section-container">
+                            <div class="col-4">
+                            	<article>
+                                  <header>
+                                      <h3>Nobora Kugisaki</h3>
+                                      <span>釘崎野薔薇</span>
+                                      <h4>Chamán de tercer grado</h4>
+                                      <figure class="team-member-photo">
+                                       <img src="images/Nobara_Kugisaki.jpg" alt="foto de Nobara">
+                                      
+                                   </figure>
+                                   <p>Su técnica es la Técnica de Muñeco Vudú</p>
+                                   <p>Es habil logrando la resonancia y horquilla, también ha experimentado el destello oscuro.</p>
+                               </header>
+                           </article>
+                       </div>
+                       <div class="col-4">
+                        <article>
+                           <header>
+                               <h3>Yuji Itadori</h3>
+                               <span>虎杖悠仁</span>
+                               <h4>Recipiente del Rey de las Maldiciones, Sukuna</h4>
+
+                               <figure class="team-member-photo">
+                                   <div class="flip">
+                                       <div class="front flip-img">
+                                           <img src="images/Yuji_Itadori.jpg" alt="foto de Yuji">
+                                       </div>
+                                       <div class="back flip-img">
+                                           <img src="images/Sukuna.jpg" alt="Juji sukuna">
+                                       </div>
+                                   </div>
+                               </figure>
+                               <p>Debe encontrar los restos de Sukuna que se encuentran esparcidos por todo Japón e ingerirlos, para luego ser ejecutado y destruir para siempre al Rey de las Maldiciones. </p>
+                           </header>
+                       </article>
+                   </div>
+                   <div class="col-4">
+                    <article>
+                       <header>
+                           <h3>Megumi Fushiguro</h3>
+                           <span>伏黒恵</span>
+                            <h4>miembro del Clan Zenin</h4>
+                           <figure class="team-member-photo">
+                               <img src="images/Megumi_Fushiguro.jpg" alt="foto de Megumi">
+                             
+                           </figure>
+                           <p>nació con el talento innato de hacer uso de la Técnica de Sombras de Diez Tipos</p>
+                       </header>
+                   </article>
+               </div>
+           </div>
+       </section>
+       <section id="transporte" class="section-container">
+       <div class="row-flex">
+         <article class="transporte-item">
+             <figure>
+               <img src="images/satoru-gojo-con-lentes-de-jujutsu-kaisen_3840x2160_xtrafondos.com.jpg" alt="Profe" class="transporte-img">
+               <figcaption>
+                   <small>Satoru Gojo</small>
+               </figcaption>
+           </figure>
+           <p class="transporte-inf">El actual director del Colegio Técnico de Magia Metropolitana de Tokio</p>
+       </article> 
+       <article class="transporte-item">       
+           <h5>Muestranos tus habilidades</h5>  
+        <form action="" class="form-landing-page" method="post">
+            <div class="input-field">
+                <input class="input-form" type="text" name="name_contact" required autocomplete="on" placeholder="Ingresa tu nombre y apellido...">
+            </div>
+            <div class="input-field">
+                <input class="input-form" type="email" name="email_contact" required autocomplete="on" placeholder="Ingresa tu correo...">
+            </div>
+            <div class="input-field">
+                <input class="input-form" type="number" name="tel_contact" required autocomplete="on" placeholder="Ingresa tu teléfono...">
+            </div>
+            
+          
+            <button class="bt3 btg" onclick="javascript:alert('Enviado :D');">Enviar</button>
+        
+          </form>
+   </article> 
+</div>      
+</section>
+</div>
+<footer class="footer">
+    Wincho &copy; Curso Diseño Web Scalab
+</footer>
+</body>
+</html>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
